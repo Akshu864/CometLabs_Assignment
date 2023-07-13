@@ -46,8 +46,4 @@ router.post('/question/:questionId/solution', authMiddleware, questionController
 module.exports = router;
 
 
-module.exports = router;
-
-
-module.exports=router;
 

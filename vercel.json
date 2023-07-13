@@ -7,12 +7,12 @@
       }
     ],
     "routes": [
-      { "src": "/api/signup", "dest": "/index.js" },
-      { "src": "/api/login", "dest": "/index.js" },
-      { "src": "/api/question", "dest": "/index.js" },
-      { "src": "/api/question/:id", "dest": "/index.js" },
-      { "src": "/api/question/:questionId/testcase", "dest": "/index.js" },
-      { "src": "/api/question/:questionId/solution", "dest": "/index.js" }
+      { "src": "/signup", "dest": "/controller/userController.js" },
+      { "src": "/login", "dest": "/controller/userController.js" },
+      { "src": "/question", "dest": "/controller/questionController.js" },
+      { "src": "/question/:id", "dest": "/controller/questionController.js" },
+      { "src": "/question/:questionId/testcase", "dest": "/controller/questionController.js" },
+      { "src": "/question/:questionId/solution", "dest": "/controller/questionController.js" }
     ]
   }
   
