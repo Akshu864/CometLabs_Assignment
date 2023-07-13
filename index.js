@@ -22,7 +22,7 @@ mongoose.connect("mongodb+srv://Akshu12:Akshay123@cluster0.eqljz.mongodb.net/MyA
 .catch(err => console.log(err))
 
 app.use('/',route)
-app.use('/',questionRoute)
+// app.use('/',questionRoute)
 
 app.listen(3000,()=>{
     console.log("server is listening on port 3000")
