@@ -14,7 +14,7 @@ app.use(bodyParser.json())
 
 app.use(bodyParser.urlencoded({extended:true}))
 
-mongoose.connect("https://github.com/Akshu864/CometLabs_Assignment.git",{useNewUrlParser: true})
+mongoose.connect("mongodb+srv://Akshu12:Akshay123@cluster0.eqljz.mongodb.net/MyAssignment_1",{useNewUrlParser: true})
 
 .then(()=>{
     console.log("mongodb is connected")
