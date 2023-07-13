@@ -14,7 +14,7 @@ app.use(bodyParser.json())
 
 app.use(bodyParser.urlencoded({extended:true}))
 
-mongoose.connect("mongodb+srv://Akshu12:Akshay123@cluster0.eqljz.mongodb.net/MyAssignment_1",{useNewUrlParser: true})
+mongoose.connect("",{useNewUrlParser: true})
 
 .then(()=>{
     console.log("mongodb is connected")
@@ -22,7 +22,7 @@ mongoose.connect("mongodb+srv://Akshu12:Akshay123@cluster0.eqljz.mongodb.net/MyA
 .catch(err => console.log(err))
 
 app.use('/',route)
-// app.use('/',questionRoute)
+app.use('/',questionRoute)
 
 app.listen(3000,()=>{
     console.log("server is listening on port 3000")
